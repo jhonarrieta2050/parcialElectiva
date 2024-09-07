@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FormularioUnicolombo</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="formulario.css"  type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="imagen-contenedor">
+                    <img src="imagenes/Logo-Unicolombo.png" class="imagen">
+                </div>
+                <div class="titulo-contenedor">
+                    <h1 class="titulo">Registro de Estudiantes</h1>
+                    <h2 class="titulo-1">Informacion del estudiante</h2>
+                </div>
+            </header>
+
+            <main>
+                <div class="form-container">
+                    <form class="form">
+
+                        <div class="form-info-container">
+                        <label for="Foto">Foto del estudiante</label>
+                        <input type="file" id="Foto" name="Foto" class="Foto" accept="image/*" required>
+                        </div>
+                        <br>
+                        
+                        <div class="form-info-container">
+                        <label for="Nombre">Nombre completo</label>
+                        <input type="text" id="Nombre" name="Nombre" required>
+                        </div>
+                        <br>
+
+                        <div class="form-info-container">
+                        <label for="Edad">Edad</label>
+                        <input type="text" id="Edad" name="Edad" required>
+                        </div>
+                        <br>
+
+                        <div class="form-info-container">
+                        <label for="Universidad">Universidad</label>
+                        <input type="text" id="Universidad" name="Universidad" required>
+                        </div>
+                        <br>
+
+                        <div class="form-info-container">
+                        <label for="Carrera">Carrera</label>
+                        <input type="text" id="Carrera" name="Carrera" required>
+                        </div>
+                        <br>
+
+                        <div class="form-info-container">
+                        <label for="Email">Email</label>
+                        <input type="text" id="Email" name="Email" required>
+                        </div>
+                        <br>
+
+                        <input type="submit" value="Registrarse" class="boton">
+                    </form>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
